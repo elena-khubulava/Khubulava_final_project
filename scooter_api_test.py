@@ -1,6 +1,6 @@
 import sender_stand_request
 
-# Elena Khubulava final project autotest 15-Venus
+# Elena Khubulava 
 def test_succsess_order_create():
     response = sender_stand_request.create_order()
     assert response.status_code == 201
